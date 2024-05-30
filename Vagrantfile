@@ -6,7 +6,6 @@ Vagrant.configure("2") do |config|
 	scriptbox.vm.provider "virtualbox" do |vb|
      vb.memory = "1024"
    end
-     scriptbox.vm.synced_folder "F:/projects/bash/lab1/Bq1", "/home/vagrant" 
   end
 
   config.vm.define "web01" do |web01|
