@@ -1,3 +1,0 @@
-ls
-sudo -i
-logout
